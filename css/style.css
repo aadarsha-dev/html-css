@@ -1,0 +1,214 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+    background-color: black;
+}
+.nav-container{
+    width: 80%;
+    display: flex;
+}
+.menu{
+    padding: 17px 0;
+}
+.menu a{
+    color: #dcf3fb;
+    display: inline-block;
+    padding: 0 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: beige;
+    background-color: black;
+    text-decoration: underline;
+}
+#top{
+    /* background-color: gray; */
+    height: 450px;
+    display: flex;
+    padding: 20px 0;
+}
+.top_box{
+    width: 24%;
+    background-color: white;
+    height: 450px;
+    position: relative;
+}
+.top_box img{
+    width: 100%;
+    height: 450px;
+}
+.top_box .caption{
+    position: absolute;
+    bottom: 0%;
+    left:0;
+    background-color: black;
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+.tag{
+    background-color: blue;
+    color: #dfe1e2;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.caption h2 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding:15px 0;
+    display: inline-block; 
+}
+.date{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.caption h2 a:hover{
+    color: yellow;
+}
+#newsletter{
+    background-color: blue;
+    background-image:url(../images/theme.jpg);
+    padding: 40px 0;
+}
+.info{
+    display: block;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40%;
+}
+.info h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #f3f5ff; */
+    color:yellow;
+    font-size: 30px;
+}
+.container{
+    width: 80%;
+    display: flex;
+}
+
+.info span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+}
+#newsletter form{
+    width: 50%;
+}
+.in{
+    border-color: transparent;
+    width: 300px;
+    height: 52px;
+    padding: 0 34px;
+    padding-left: 40px;
+    border: none;
+    font-weight: 700;
+    font-size:18px;
+}
+.btn{
+    background-color: #0e5dae;
+    border-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    height: 55px;
+    width: 100px;
+}
+.btn:hover{
+    /* background-color: rgb(87, 87, 234); */
+    color:yellow
+}
+footer{
+    background-color: #03a9f4;
+    padding: 40px 0;
+}
+.footer_box{
+    width: 20%;
+}
+.footer_box img{
+    width: 80%;
+}
+.footer_box h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #dcf3fb;
+    border-bottom: 2px solid #0e5dae;
+    display: inline-block;
+    padding: top 10px; 
+}
+.footer_menu{
+    padding-top: 10px;
+}
+.footer_menu a{
+    color: #dfe1e2;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+.footer_menu a:hover{
+    color: red;
+}
+#contact{
+    padding: 50px 0;
+}
+#contact .in #contact textarea{
+    border:1px solid #f1f1f1;
+    width: 100%;
+    display: block;
+
+}
+#contact h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: yellowgreen;
+    border-bottom: 2px solid #dcf3fb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#contact p{
+    padding: 5px 0;
+}
+#contact label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #0e5dae;
+    padding-bottom: 5px ;
+}
+#about{
+    padding: 50px;
+}
+.acontainer{
+    width: 60%;
+}
+#about h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #0e5dae;
+    border-bottom: 2px solid #0e5dae;
+    display: inline-block;
+    padding-bottom: 5px;
+
+}
+#about iframe{
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 20px 0;
+}
+#about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 22px;
+    color: #0e5dae;
+
+}
